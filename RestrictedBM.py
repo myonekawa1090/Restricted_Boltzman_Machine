@@ -158,7 +158,7 @@ class RBM(object):
                 print "epoch : %d" %( (epoch))
             
         self.elapsed_time = time.time() - start
-        print ("学習時間:{0}".format(self.elapsed_time)) + "[sec]" #����
+        print ("学習時間:{0}".format(self.elapsed_time)) + "[sec]"
         #return [self.W ,self.hbias , self.vbias]
 
     def reconstruct(self, v):
